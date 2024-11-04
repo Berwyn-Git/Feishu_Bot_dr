@@ -10,14 +10,14 @@ import json
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 # 设置全局变量 - 这些变量的值需要修改为实际的应用参数
-app_id = "cli_a6f036804cb1d00e"
-app_secret = "KOzmEngu4xLabWFWOPsHKdLkuB8U0geJ"
-spreadsheet_token = 'J4gEsgbSEhixbGt4iJtcfViVnac'
-sheet_id = "8b4b0c"
+app_id = "cli_****************"
+app_secret = "K****************J"
+spreadsheet_token = 'J****************c'
+sheet_id = "******"
 range = f'{sheet_id}!DO14:DO16'
 url = f'https://open.feishu.cn/open-apis/sheets/v2/spreadsheets/{spreadsheet_token}/values/{range}'
-link = "https://li.feishu.cn/sheets/J4gEsgbSEhixbGt4iJtcfViVnac"
-receive_id = "oc_4faec7f80eb3d18eda97935c261b8262"
+link = "https://li.feishu.cn/sheets/****************"
+receive_id = "oc_****************"
 
 
 # 获取 access token
@@ -121,5 +121,5 @@ scheduler.add_job(job, 'cron', hour=11, minute=23)  # 每天早上9点执行
 scheduler.start()
 
 # 进入终端输入
-# cd /Users/zhangbowen7/MyCode/Daily_Report/forbabe
-# caffeinate -i /Users/zhangbowen7/MyCode/Daily_Report/venv/bin/python3 version1.6.py
+# cd /Users/****************/MyCode/Daily_Report/****************
+# caffeinate -i /Users/****************/MyCode/Daily_Report/venv/bin/python3 version1.6.py
